@@ -10,7 +10,7 @@ const Page = () => {
     <p className='text-center w-[800px] text-xl text-black'>Write the dialogue for the following comic strip! Be clear, concise, courteous, and complete. Have fun with it</p>
     <Image src="/C27Images/ComicStrip.jpg" width={300} height={100} alt='ComicStrip image'/>
 
-    <textarea placeholder='Write Here...' className='text-lg text-black text-center min-h-[150px] min-w-[500px] border  rounded-lg '/>
+    <textarea placeholder='Write Here...' className='text-lg text-black text-center min-h-[150px] min-w-[500px] border  border-gray-400 rounded-lg '/>
 </div>
       
     </div>

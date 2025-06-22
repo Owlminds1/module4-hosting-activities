@@ -14,27 +14,27 @@ const Page = () => {
       </div>
       <div className="col-span-6 flex flex-col gap-3 justify-center">
         <div className="flex items-center gap-2">
-          <label className="text-lg text-black" htmlFor="A">CAPTION A</label>
+          <label className="text-lg text-black min-w-[100px]" htmlFor="A">CAPTION A</label>
           <input type="text" id="A" className="w-[200px] min-h-[30px] text-black px-2 border border-gray-500 outline-none"  />
         </div>
 
           <div className="flex items-center gap-2">
-          <label className="text-lg text-black" htmlFor="B">CAPTION B</label>
+          <label className="text-lg text-black min-w-[100px]" htmlFor="B">CAPTION B</label>
           <input type="text" id="B" className="w-[200px] min-h-[30px] text-black px-2 border border-gray-500 outline-none"  />
         </div>
 
         <div className="flex items-center gap-2">
-          <label className="text-lg text-black" htmlFor="C">CAPTION C</label>
+          <label className="text-lg text-black min-w-[100px]" htmlFor="C">CAPTION C</label>
           <input type="text" id="C" className="w-[200px] min-h-[30px] text-black px-2 border border-gray-500 outline-none"  />
         </div>
 
         <div className="flex items-center gap-2">
-          <label className="text-lg text-black" htmlFor="D">CAPTION D</label>
+          <label className="text-lg text-black min-w-[100px]" htmlFor="D">CAPTION D</label>
           <input type="text" id="D" className="w-[200px] min-h-[30px] text-black px-2 border border-gray-500 outline-none"  />
         </div>
 
          <div className="flex items-center gap-2">
-          <label className="text-lg text-black" htmlFor="E">CAPTION E</label>
+          <label className="text-lg text-black min-w-[100px]" htmlFor="E">CAPTION E</label>
           <input type="text" id="E" className="w-[200px] min-h-[30px] text-black px-2 border border-gray-500 outline-none"  />
         </div>
       </div>
