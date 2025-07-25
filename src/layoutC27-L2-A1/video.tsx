@@ -8,9 +8,11 @@ const Video = ({
 }) => {
   return (
     <div className="min-h-screen flex flex-col gap-5 justify-start items-center p-5 bg-[#F8FAFC]">
-      <h4 className="text-2xl text-black font-medium">Video QnA</h4>
+      <h4 className="text-2xl text-black font-bold">Video QnA</h4>
 
-      <div className=" border p-2 flex justify-center items-center flex-col gap-2 rounded-lg shadow-lg ">
+<div className="w-[80%]">
+
+      <div className=" border p-2 w-full flex justify-center items-center  rounded-lg shadow-lg ">
         <iframe
           width="800"
           height="400"
@@ -21,6 +23,7 @@ const Video = ({
           allowFullScreen
         ></iframe>
 
+      </div>
         <div className="w-full flex justify-end items-end mt-5">
           <div
             className={`
@@ -32,11 +35,11 @@ const Video = ({
             <FaArrowRight
               className={`
           text-[40px] cursor-pointer text-black`}
-              onClick={() => setIsFirstScreen("ImageScreen")}
+              onClick={() => setIsFirstScreen("Questions")}
             />
           </div>
         </div>
-      </div>
+</div>
     </div>
   );
 };
